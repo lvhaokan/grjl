@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        .btn{
+            width:50px;
+            height:20px;
+            background-color:skyblue;
+            margin:100px auto;
+            font-size:14px;
+            line-height:20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <progress value="0" max="100"></progress>
+    <div class='btn'>
+         确认
+    </div>
+    <script>
+        var p = document.querySelector('progress');
+        var b =document.querySelector('.btn');
+
+        window.onload = function(){
+            var teamr = setInterval(function(){
+                if(p.value==100){
+                    p.value =0;
+                }
+                p.value++;
+            },100)
+             b.onclick = function(){
+            clearInterval(teamr);
+        }
+        }
+    </script>
+</body>
+</html>

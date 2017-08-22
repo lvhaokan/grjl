@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ li {
+    list-style: none;
+}
+ a{
+     text-decoration: none;
+ }
+/*头部开始*/
+.logo {
+    width: 100%;
+    height: 75px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-bottom: 1px solid #EBEBEB;
+    z-index: 9;
+}
+.logo .zf {
+    width: 363px;
+    height: 100%;
+    /*background-color: red;*/
+    float: left;
+    line-height: 75px;
+    text-align: center;
+    /*margin-left: 30px;*/
+}
+.logo .zf a {
+    text-decoration: none;
+    color: #333333;
+    padding: 27px;
+}
+.logo .zj {
+    width: 120px;
+    height: 100%;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+   margin-left: 50%;
+    left: -60px;
+}
+.logo .zj img {
+    width: 120px;
+    height: 100%;
+}
+
+.logo .yf {
+    width: 77px;
+    height: 100%;
+    /*background-color: deeppink;*/
+    float:right;
+    /*margin-right: 30px;*/
+    line-height: 75px;
+    text-align: center;
+}
+.logo .yf a {
+    text-decoration: none;
+    color: #333333;
+    padding: 20px;
+}
+/*头部结束*/
+/*白色玛莎开始*/
+.mashaladi {
+    width: 100%;
+    height: 768px;
+    background: url("../images/162460M.jpg")no-repeat;
+    position: relative;
+}
+.mashaladi .zc {
+    width: 665px;
+    height: 90px;
+    /*background-color: hotpink;*/
+    margin-bottom: 1px;
+    position: absolute;
+    bottom: 0px;
+}
+.mashaladi .zc .xk  {
+    display: block;
+    height: 90px;
+    width: 445px;
+    font-size: 30px;
+    color: #F7FFFF;
+    text-align: right;
+    border-right: 1px solid #676A68;
+    float: left;
+}
+.mashaladi .zc .xk li {
+    margin-right: 30px;
+}
+.mashaladi .zc .lj{
+    float: right;
+    display: block;
+    width: 219px;
+    height: 90px;
+}
+.mashaladi .zc .lj p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+}
+.mashaladi .zc .lj li div {
+    width: 120px;
+    height: 30px;
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+    color: #000000;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+.mashaladi .xxgd {
+    width: 115px;
+    height: 20px;
+    /*background-color: pink;*/
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+.mashaladi .xxgd p {
+    color: #FFFFFF;
+    font-size: 18px;
+    float: left;
+
+}
+.mashaladi .xxgd img {
+    float: right;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+/*白色玛莎结束*/
+/*车型开始*/
+.chexing {
+    width: 100%;
+    height: 120px;
+    background-color: #F9F9F9;
+}
+.chexing h1 {
+    font-size: 42px;
+    line-height: 120px;
+    margin-left: 60px;
+    float: left;
+    color: #333333;
+    font-weight: 400;
+}
+.chexing p {
+    float: left;
+    line-height: 120px;
+    margin-left: 60px;
+    font-size: 19px;
+    color: #333333;
+}
+
+
+.chedui {
+    width: 100%;
+    height: 610px;
+    background-color: #F9F9F9;
+}
+.chedui ul li {
+    width: 445px;
+    height: 287px;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+.chedui ul li .dazi {
+    font-size: 24px;
+    color: #333333;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.chedui ul li .xiaozi {
+    margin-left: 38px;
+    margin-top: 8px;
+    font-size: 12px;
+
+}
+.chedui ul li.kongjian {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.chedui ul li.jianju {
+    margin-top: 7px;
+}
+.chedui ul li img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+/*车型结束*/
+/*卓越公路性能开始*/
+.xingneng {
+    width: 100%;
+    height: 810px;
+    background: url("../images/hero-website.jpg") no-repeat;
+    position: relative;
+}
+.xingneng .Levante {
+    width: 360px;
+    height: 175px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -87px;
+    right: 50px;
+}
+.xingneng .Levante h2,
+.zhuoerbufan .Ghibli h2,
+.dishoufu .shoufu h2,
+.haohuadingzhi .haohua h2,
+.zaixiandingzhi .dingzhi h2,
+.bingxuedashi .bingxue h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.xingneng .Levante p,
+.zhuoerbufan .Ghibli p,
+.dishoufu .shoufu p,
+.haohuadingzhi .haohua p,
+.zaixiandingzhi .dingzhi p,
+.bingxuedashi .bingxue p {
+    color: white;
+    line-height: 25px;
+}
+.xingneng .Levante div,
+.zhuoerbufan .Ghibli div,
+.dishoufu .shoufu div,
+.haohuadingzhi .haohua div,
+.zaixiandingzhi .dingzhi div,
+.bingxuedashi .bingxue div {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 1px;
+    margin-top: 35px;
+}
+.xingneng .Levante div a,
+.zhuoerbufan .Ghibli div a,
+.dishoufu .shoufu div a,
+.haohuadingzhi .haohua div a,
+.zaixiandingzhi .dingzhi div a,
+.bingxuedashi .bingxue div a {
+    color: #333333;
+}
+/*卓越公路性能结束*/
+/*卓尔不凡开始*/
+.zhuoerbufan {
+    width: 100%;
+    height: 710px;
+    background: url("../images/162980M (1).jpg") no-repeat;
+    overflow: hidden;
+}
+.zhuoerbufan .Ghibli {
+    width: 360px;
+    height: 147px;
+    /*background-color: pink;*/
+    margin-top: 130px;
+    margin-left: 50px;
+}
+/*卓尔不凡结束*/
+/*低首付开始*/
+.dishoufu {
+    width: 100%;
+    height: 535px;
+    background: url("../images/111.jpg") no-repeat;
+    overflow: hidden;
+}
+.dishoufu .shoufu  {
+    width: 320px;
+    height: 200px;
+    /*background-color: pink;*/
+    margin-left: 45px;
+    margin-top: 100px;
+}
+/*低首付结束*/
+/*豪华定制开始*/
+.haohuadingzhi {
+    width: 100%;
+    height: 570px;
+    background: url("../images/Maserati_Tessuto_022 (1).jpg") no-repeat;
+    overflow: hidden;
+}
+.haohuadingzhi .haohua {
+    width: 320px;
+    height: 200px;
+    /*background-color: pink;*/
+    margin-left: 45px;
+    margin-top: 100px;
+}
+/*豪华定制结束*/
+/*在线定制开始*/
+.zaixiandingzhi {
+    width: 100%;
+    height: 690px;
+    background: url("../images/_MG_7724-SITE_versione-sito.jpg") no-repeat;
+    overflow: hidden;
+}
+.zaixiandingzhi .dingzhi {
+    width: 320px;
+    height: 200px;
+    /*background-color: pink;*/
+    margin-left: 95px;
+    margin-top: 100px;
+}
+/*在线定制结束*/
+/*冰雪大师开始*/
+.bingxuedashi {
+    width: 100%;
+    height: 360px;
+    background: url("../images/Gallardo_31_.jpg")no-repeat 0 -306px;
+    overflow: hidden;
+}
+.bingxuedashi .bingxue {
+    width: 320px;
+    height: 200px;
+    /*background-color: pink;*/
+    margin-left: 1000px;
+    margin-top: 60px;
+    color: #333333;
+}
+.bingxuedashi .bingxue h2 {
+    color: #333333;
+
+}
+.bingxuedashi .bingxue p {
+    color: #333333;
+}
+
+/*冰雪大师结束*/
+/*底部开始*/
+.dibu {
+    width: 100%;
+    height: 151px;
+    /*background-color: pink;*/
+    overflow: hidden;
+    padding-bottom: 50px;
+
+
+
+}
+.dibu input.wenbenkuang {
+    width: 445px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 40px;
+    background: url("../images/fangdajing.svg") no-repeat;
+    /*width: 50%;*/
+    padding-left: 60px;
+    background-size: auto;
+    background-position: 15px center;
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid #EBEBEB;
+    /*border-right:  1px solid #A9A9A9;*/
+    /*border-top:  1px solid #A9A9A9;*/
+    /*border-bottom:  1px solid #A9A9A9;*/
+}
+.dibu input.anniu {
+    width: 90px;
+    height: 30px;
+    background-color: #0b2749;
+    border: 1px solid #0b2749;
+    color: white;
+    font-size: 18px;
+    /*margin-top: 1px;*/
+}
+.meiti ul li {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.meiti ul li a {
+    color: #333333;
+}
+.youbian {
+    float: right;
+}
+
+.youbian ul li {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+
+}
+.youbian ul{
+    margin-left: 145px;
+    margin-top: -25px;
+}
+.youbian p {
+    margin-top: 50px;
+    margin-right: 70px;
+    font-size: 14px;
+}
+.youbian p a {
+    color: #333333;
+    margin-left: 20px;
+}
+
+
+/*底部结束*/
